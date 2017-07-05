@@ -47,5 +47,5 @@ Glówną klasą pakietu jest DAO, odpowiadająca za komunikację z bazą danych.
 Kontroler jest klasą kierującą aplikacją na podstawie interakcji z użytkownikiem. Obsuguje takie zdarzenia jak: kliknięcie LPM lub PPM, najechanie myszką na przycisk, zmiana zaznaczenia galązki drzewka.
 
 ### Podzial zadan
-** Aleksandra Zając ** - View (Application, StartPanel, PatientViewPanel), Model (DAO, Series)
-** Tomasz Kopacz ** - Controller, View (SearchingPatientFrame, AddingPatientFrame), Model (Patient, Test).
+**Aleksandra Zając** - View (Application, StartPanel, PatientViewPanel), Model (DAO, Series)
+**Tomasz Kopacz** - Controller, View (SearchingPatientFrame, AddingPatientFrame), Model (Patient, Test).

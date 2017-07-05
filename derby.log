@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Jun 09 16:15:53 CEST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015c-8d35-c547-000006d58660 
+on database directory C:\Users\Uzytkownik\git\Obrazowanie_Badan\PatientsDB with class loader sun.misc.Launcher$AppClassLoader@4e0e2f2a 
+Loaded from file:/C:/Users/Uzytkownik/git/Obrazowanie_Badan/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_73-b02
+user.dir=C:\Users\Uzytkownik\git\Obrazowanie_Badan
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

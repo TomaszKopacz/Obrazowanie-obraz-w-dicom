@@ -1,0 +1,1 @@
+INSERT INTO App.Tests VALUES (DEFAULT, 'Seria', FILE_READ('/0001.dcm'), 'Test');

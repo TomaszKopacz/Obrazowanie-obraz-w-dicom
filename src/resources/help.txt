@@ -1,0 +1,82 @@
+OBRAZOWANIE BADAN
+
+OPIS:
+Aplikacja sluzy do wyswietlania obrazow przechowywanych w standardzie DICOM.
+
+------------------------------------------------------------------------------------------------
+
+PANEL STARTOWY: 
+
+Po uruchomieniu aplikacji oczom uzytkownika ukazuje sie panel startowy.
+Sklada sie on z paska Menu oraz dwoch przyciskow: 'Dodaj pacjenta' i 'Wyszukaj pacjenta'.
+
+Aby dodac pacjenta nalezy kliknac przycisk 'Dodaj pacjenta' lub kliknac 'Plik' z paska Menu, nastepnie z listy rozwijalnej 'Dodaj pacjenta'.
+
+Aby wyszukac pacjenta w bazie nalezy kliknac przycisk 'Wyszukaj pacjenta' lub kliknac 'Plik' z paska Menu, nastepnie z listy rozwijalnej wybrac 'Wyszukaj pacjenta'.
+
+------------------------------------------------------------------------------------------------
+
+DODAWANIE PACJENTA:
+
+Po wybraniu przycisku 'Dodaj pacjenta' (z Menu lub w panelu glownym) pojawi sie okienko dodawania pacjenta.
+Nalezy wypelnic wszystkie dane i kliknac przycisk 'Zapisz'.
+
+-------------------------------------------------------------------------------------------------
+
+WYSZUKIWANIE PACJENTA:
+
+Po wybraniu przycisku 'Wyszukaj pacjenta' (z Menu lub w panelu glownym) pojawi sie okienko Wyszukiwania pacjenta.
+Sklada sie ono z pol tekstowych, tabeli i przyciskow. W polach tekstowych nalezy wpisac kryteria wyszukiwania, na podstawie ktorych zostana wybrani pacjenci. Np. jezeli chcemy znalezc wszystkich pacjentow, ktorych imie zaczyna sie od litery 'M', w polu tekstowym 'imie' wpisujemy 'M'. Program rozroznia duze i male litery.
+Po wypelnieniu pol tekstowych klikamy przycisk 'Wyszukaj'. W tabeli ukaza sie wyniki wyszukiwania.
+Jezeli ktorys z zaprezentowanych w tabeli pacjentow jest jest tym, ktorego szukamy, zaznaczamy go.
+Po zaznaczeniu mozemy zarowno usunac go z bazy danych (przycisk 'Usun') jak i przejsc do wyswietlenia jego badan obrazowych (przycisk 'Wybierz').
+
+-------------------------------------------------------------------------------------------------
+
+WIDOK PACJENTA:
+
+Po dodaniu pacjenta lub wyszukaniu go w bazie pojawia sie nowy panel - panel widoku pacjenta.
+Sklada sie on z trzech dodatkowych czesci: po lewej stronie znajduje sie drzewko, w ktorym umieszczone sa wszystkie serie badan i obrazy pacjenta, pp prawej stronie widnieje panel, w ktorym pokazywane beda obrazy. Powyzej znajduje sie pasek narzedzi z piecioma funkcjonalnymi przyciskami.
+
+-------------------------------------------------------------------------------------------------
+
+PASEK NARZEDZI:
+
+Pasek narzedzi skalda sie z pieciu przyciskow:
+
+'Dodaj nowa serie' - dodaje nowa serie (katalog na obrazy). Po kliknieciu na ten przycisk pojawia sie okno dialogowe, w ktorym nalezy podac nazwe nowej serii.
+
+'Dodaj badanie' - dodaje nowy obraz. Aby dodac obraz, nalezy przed kliknieciem na ten przycisk zaznaczyc w drzewku serie, do ktorej obraz bedzie przydzielony. Jesli to uczynimy i klikniemy w przycisk 'Dodaj badanie' pojawi sie okno wyboru pliku. Nalezy wskazac obraz dicom na dysku i zatwierdzic. Nastepnie ukaze sie okno, w ktorym nalezy nadac nazwe obrazu.
+
+'Zapisz jako jpg' - zapisuje obraz badania w formacie *.jpg. Aby przycisk zadzialal, nalezy wczesniej zaznaczyc w drzewku, ktory obraz chcemy zapisac. Po kliknieciu pojawi sie okno wyboru katalogu, gdzie zapisany zostanie obraz.
+
+'Zapisz jako dicom' - zapisuje obraz badania w formacie *.dcm. Aby przycisk zadzialal, nalezy wczesniej zaznaczyc w drzewku, ktory obraz chcemy zapisac. Po kliknieciu pojawi sie okno wyboru katalogu, gdzie zapisany zostanie obraz.
+
+'Pelne informacje' - wyswietla w postaci pliku tekstowego pelne dane obrazu, przechowywane zgodnie ze standardem DICOM. Przed kliknieciem przycisku nalezy zaznaczyc obraz, ktorego dane chcemy uzyskac.
+
+------------------------------------------------------------------------------------------------
+
+DRZEWKO:
+
+Drzewko plikow jest trzypietrowe: pierwsze pietro to imie i nazwisko pacjenta, drugie to serie, trzecie to obrazy badan.
+
+Po kliknieciu PPM na imie i nazwisko ukaze sie 'popup menu', w ktorym mozemy edytowac dane pacjenta lub usunac go z bazy danych.
+
+Po kliknieciu PPM na serie ukaze sie 'popup menu', w ktorym mozemy edytowac nazwe serii lub usunac ja z bazy danych. 
+
+Po kliknieciu PPM na obraz ukaze sie 'popup menu', w ktorym mozemy edytowac nazwe obrazu lub usunac go z bazy danych.
+
+Klikniecie LPM na obraz spowoduje ukazanie sie obrazu w panelu widoku obrazu.
+
+------------------------------------------------------------------------------------------------
+
+PANEL WIDOKU OBRAZU:
+
+W panelu widoku obrazu ukazuja sie obrazy badania. Aby wyswietlic obraz, nalezy zaznaczyc interesujace nas badanie w drzewku.
+
+------------------------------------------------------------------------------------------------
+
+WYJsCIE:
+
+Aplikacja konczy dzialanie po wcisnieciu domyslnego przycisku zamkniecia okna lub wcisnieci przycisku 'Plik' z Menu i wybraniu opcji 'Zamknij'.
+
